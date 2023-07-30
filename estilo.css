@@ -1,0 +1,185 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+   font-family: "calibri";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    
+    width: 100%;
+    clear: both;
+    display: table;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: 0.5px .5px .5px rgba(0, 0, 0, .2);
+    
+}
+
+nav {
+    float: right;
+}
+nav ul li {
+
+list-style: none;
+padding: 25px 0;
+float: left;
+
+}   
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 45px;
+} 
+
+li a:hover {
+
+    color: rgb(219, 14, 134);
+    background-color: #e0dfdf;
+    transition: color,background-color .2s linear;
+
+}
+
+li:nth-last-child(1) {
+    margin-right: 50px;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 50px;
+}
+.foto {
+    width: 300px;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+}
+.portada {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   justify-content: space-evenly;
+}
+
+.descripcion {
+    padding: 50px 0;
+    font-size: 20px;
+   
+}
+
+.rol {
+font-size: 30px;
+}
+
+h1 {
+font-size: 60px;
+}
+
+#skills {
+    height: 150px;
+background-color: rgba(219, 14, 134, 0.637);
+}
+
+#facts {
+    padding-top:30px;
+    line-height: 30px;
+}
+#saludo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.saludo {
+    padding: 50px 10px 50px 50px;
+}
+.nombre {
+    color:rgb(219, 14, 134);
+}
+
+#about {
+    padding-top: 60px;
+}
+#portfolio {
+    padding-top: 60px;
+}
+#contact {
+    padding-top: 60px;
+}
+.fotoproyecto {
+    width: 400px;
+    object-fit: cover;
+    margin: 0 15px;
+    box-shadow: -.1px -.1px 1px 1px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+.proyectos {
+    text-align: center;
+}
+.contenedorfoto {
+    width: 100%;
+
+}
+
+.logo {
+    width: 100px;
+    margin: 50px;
+    
+}
+
+#logoscontact {
+    text-align: center;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column ;
+}
+
+.inputcontainer input{
+    width: 30vw;
+    height: 50px;
+}
+
+#textarea{
+display: flex;
+flex-direction: column;
+width: 30vw;
+height: 150px;
+margin-left: 20px;
+
+}
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+button  {
+   display: flex; 
+   width: 80px; 
+   height: 30px;
+   margin-left: 1005px;
+ 
+
+}
