@@ -127,20 +127,17 @@ background-color: rgba(219, 14, 134, 0.637);
 #contact {
     padding-top: 60px;
 }
+
 .fotoproyecto {
     width: 400px;
+    height: 300px; 
     object-fit: cover;
     margin: 0 15px;
     box-shadow: -.1px -.1px 1px 1px rgba(0, 0, 0, .2);
     border-radius: 5px;
 }
-.proyectos {
-    text-align: center;
-}
-.contenedorfoto {
-    width: 100%;
 
-}
+
 
 .logo {
     width: 100px;
@@ -182,5 +179,18 @@ button  {
    height: 30px;
    margin-left: 1005px;
  
+
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.linea {
+    color:rgb(219, 14, 134);
 
 }
