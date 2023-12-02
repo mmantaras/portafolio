@@ -194,3 +194,37 @@ button  {
     color:rgb(219, 14, 134);
 
 }
+
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#myForm input,
+#myForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#myForm input[type="submit"] {
+    background-color: rgb(219, 14, 134);
+    color: white;
+    cursor: pointer;
+}
+
+#myForm input[type="submit"]:hover {
+    background-color: #e0dfdf;
+    transition: background-color 0.2s ease-in-out;
+}
+
